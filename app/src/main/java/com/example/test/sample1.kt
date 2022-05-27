@@ -77,3 +77,9 @@ fun checkNum(score: Int) {
         else->println("I don't know") // else 생략 가능
     }
 }
+
+//Expression vs Statement
+// Expression : return 값이 있는 것
+// Statement : returnr 값이 없는 것
+// 코틀린에서 모든 함수는 Expression이다. -> return값이 없는 것도 사실은 Unit을 반환함
+
