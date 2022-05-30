@@ -1,4 +1,4 @@
-package com.example.test
+package com.example.test.basic
 
 // 8. class
 // 파일 이름과 class 이름이 일치하지 않아도 됨
