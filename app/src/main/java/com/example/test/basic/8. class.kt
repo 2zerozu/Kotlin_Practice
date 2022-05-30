@@ -53,6 +53,7 @@ open class Human3 (val name: String = "Anonymous"){ // Human2와 같은 함수, 
 //따라서 상속을 받으려면 클래스를 open해주어야 함
 //오버라이딩 : 부모의 클래스를 자식의 클래스에 오버라이딩 한다, 덮어 씌운다
 //상속은 하나만 가능!
+//fun에서는 : 뒤에 리턴형이 오지만 class에서는 : 뒤에 상속 클래스가 옴
 class Korean : Human3(){
     override fun singASong(){
         super.singASong() // 기존의 것을 사용하고 싶을 때는 super 사
