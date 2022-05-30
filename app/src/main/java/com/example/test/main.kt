@@ -9,9 +9,13 @@ fun main() {
 
     //checkNum(2)
 
-    for_()
+    //for_()
 
-    while_()
+    //while_()
+
+    //nullCheck()
+
+    ignoreNull("hello")
 }
 //Expression vs Statement
 // Expression : return 값이 있는 것
