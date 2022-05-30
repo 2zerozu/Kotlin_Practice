@@ -1,8 +1,13 @@
 package com.example.test
 
+fun main(){
+    nullCheck()
+    ignoreNull("hello")
+}
+
 //7. Nullable / NonNull
 
-fun nullCheck() {
+private fun nullCheck() {
     //NPE : Null Pointer Exception
 
     var name: String = "Julie"
@@ -20,7 +25,7 @@ fun nullCheck() {
 }
 
 // !!
-fun ignoreNull(str: String?) { // str은 null일 수도 있고 아닐 수도 있다.
+private fun ignoreNull(str: String?) { // str은 null일 수도 있고 아닐 수도 있다.
     // val mNotNull : String = str // str이 null일 수도 있기 때문에 에러
     val mNoteNull: String = str!! // !!을 붙여주면 null이 아니라는 것을 보증
     val upper = mNoteNull.uppercase() // ?를 쓰지 않아도 됨

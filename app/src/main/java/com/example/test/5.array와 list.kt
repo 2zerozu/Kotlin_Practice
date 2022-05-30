@@ -4,7 +4,7 @@ package com.example.test
 // Array : 이미 메모리가 할당이 되어서 나옴, mutable(값 변경 가능)
 // List : 1. List(변경 불가능) 2. MutableList(변경 가능) - MutableList의 대표적인 예 : arrayList
 
-fun array() {
+private fun array() {
     val array = arrayOf(1, 2, 3)
     val list = listOf(1, 2, 3)
 

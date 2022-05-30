@@ -1,14 +1,21 @@
 package com.example.test
 
+fun main() {
+    maxBy(2, 4)
+    maxBy2(3, 5)
+    checkNum(1)
+
+}
+
 //4. 조건식
-fun maxBy(a: Int, b: Int): Int {
+private fun maxBy(a: Int, b: Int): Int {
     if (a > b) return a
     else return b
 }
 
-fun maxBy2(a: Int, b: Int) = if (a > b) a else b // return 타입 생략 가능
+private fun maxBy2(a: Int, b: Int) = if (a > b) a else b // return 타입 생략 가능
 
-fun checkNum(score: Int) {
+private fun checkNum(score: Int) {
     when (score) {
         0 -> println("This is 0")
         1 -> println("This is 1")
@@ -24,10 +31,7 @@ fun checkNum(score: Int) {
     println("b : ${b}")
 
     when (score) {
-        in 0..50 -> println(
-            "not good" +
-                    ""
-        )
+        in 0..50 -> println("not good")
         in 50..90 -> println("not bad")
         in 90..100 -> println("Nice!")
         else -> println("I don't know") // else 생략 가능

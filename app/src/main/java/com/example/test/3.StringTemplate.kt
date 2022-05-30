@@ -1,6 +1,10 @@
 package com.example.test
 
-fun stringTemplate(){
+fun main(){
+    stringTemplate()
+}
+
+private fun stringTemplate(){
     // 3. String Template
     val firstName = "Julie"
     val lastName = "Lee"

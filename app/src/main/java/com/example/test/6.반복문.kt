@@ -1,9 +1,14 @@
 package com.example.test
 
+fun main(){
+    for_()
+    while_()
+}
+
 //6. 반복문
 //for and while
 
-fun for_() {
+private fun for_() {
     val students = arrayListOf("Julie", "Amanda", "Yuya", "Vitor", "Kao", "Han")
 
     for (name in students) {
@@ -36,7 +41,7 @@ fun for_() {
     println(sum)
 }
 
-fun while_(){
+private fun while_(){
     var index = 0
     while(index<10){
         println("current index : ${index}")
