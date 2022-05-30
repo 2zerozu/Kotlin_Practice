@@ -1,4 +1,4 @@
-package com.example.test
+package com.example.test.basic
 
 //5. Array and List
 // Array : 이미 메모리가 할당이 되어서 나옴, mutable(값 변경 가능)
