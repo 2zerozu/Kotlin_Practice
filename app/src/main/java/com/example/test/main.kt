@@ -1,13 +1,17 @@
 package com.example.test
 
 fun main() {
-    helloWorld()
+    //helloWorld()
 
-    add(2, 4)
+    //add(2, 4)
 
-    stringTemplate()
+    //stringTemplate()
 
-    checkNum(2)
+    //checkNum(2)
+
+    for_()
+
+    while_()
 }
 //Expression vs Statement
 // Expression : return 값이 있는 것
