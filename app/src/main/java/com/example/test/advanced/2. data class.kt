@@ -6,15 +6,14 @@ package com.example.test.advanced
 //var로 선언한 변수는 get(), set()이 추가되고, val로 선언한 변수는 값을 변경할 수 없어서 get()만 추가된다!
 
 
-
 data class Ticket(val companyName: String, val name: String, var date: String, var seatNumber: Int)
-    //변수를 선언해줘서 이 각각은 클래스의 프로퍼티처럼 사용 가능
-    //constructor 만듦
-    //toString(), hashCode(), equals(), copy()가 자동으로 만들어짐
+//변수를 선언해줘서 이 각각은 클래스의 프로퍼티처럼 사용 가능
+//constructor 만듦
+//toString(), hashCode(), equals(), copy()가 자동으로 만들어짐
 
 class TicketClass(val companyName: String, val name: String, var date: String, var seatNumber: Int)
 
-fun main(){
+fun main() {
     val ticketA = Ticket("UnitedAirline", "Julie Lee", "31/May/2022", 20)
     val ticketB = TicketClass("UnitedAirline", "Julie Lee", "31/May/2022", 20)
 
